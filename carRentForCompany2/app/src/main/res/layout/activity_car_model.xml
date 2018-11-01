@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+    <Button
+        android:id="@+id/AddCarModeltButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Car Model" />
+    <Button
+        android:id="@+id/RemoveCarModelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Car Model" />
+    <Button
+        android:id="@+id/UpdateCarModelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Car Model" />
+    <Button
+        android:id="@+id/ShowCarModelButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Car Model List" />
+
+</LinearLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.moish.carrentforcompany.controller.AddBranchActivity">
+
+
+    <EditText
+        android:id="@+id/CitytText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/city"
+        android:inputType="textPersonName" />
+
+
+    <EditText
+        android:id="@+id/StreetEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/street"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/AdressNumberEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/adress_number"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/NumberOfParkingAvailableEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/number_ofParking_available"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/BranchNumber_idEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/branchNumber_id"
+        android:inputType="phone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/addBranchButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_branch" />
+
+</LinearLayout>
+
+
+

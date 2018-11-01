@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.example.moish.carrentforcompany.controller.AddCarModelActivity">
+
+
+        <EditText
+            android:id="@+id/ReserveNumber_id"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/reserve_number_id"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/ClientNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/client_number"
+            android:inputType="number" />
+
+        <EditText
+            android:id="@+id/CarNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/car_number"
+            android:inputType="number" />
+
+
+        <CheckBox
+            android:id="@+id/IsOpened"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/is_opened"
+            android:onClick="onCheckboxClicked"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/RentBegginning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/rent_beginning"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/RentEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/rent_end"
+            android:inputType="date" />
+
+        <EditText
+            android:id="@+id/StartKilometers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/start_kilometers"
+            android:inputType="number" />
+
+      <EditText
+            android:id="@+id/EndKilometers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/end_kilometers"
+            android:inputType="number"
+          android:visibility="gone"/>
+
+
+        <CheckBox
+            android:id="@+id/IsFueled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/is_fueled"
+            android:onClick="onCheckboxClicked" />
+
+
+        <EditText
+            android:id="@+id/LitersFueled"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/liters_fueled"
+            android:inputType="number"
+            android:visibility="gone"/>
+
+        <EditText
+            android:id="@+id/TotalToPay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/total_to_pay"
+            android:inputType="number"
+            android:visibility="gone"/>
+
+        <Button
+            android:id="@+id/addCarReserveButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/add_reserve_button" />
+
+    </LinearLayout>
+</ScrollView>
+
+
+
+
+

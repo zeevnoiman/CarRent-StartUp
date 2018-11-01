@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.moish.carrentforcompany">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+
+        <activity android:name=".controller.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".controller.BranchActivity" />
+        <activity android:name=".controller.CarModelActivity" />
+        <activity android:name=".controller.ClientActivity" />
+        <activity android:name=".controller.ReserveActivity" />
+        <activity android:name=".controller.CarActivity" />
+        <activity android:name=".controller.AddClientActivity" />
+        <activity android:name=".controller.AddBranchActivity" />
+        <activity android:name=".controller.AddCarModelActivity" />
+        <activity android:name=".controller.AddReserveActivity" />
+        <activity android:name=".controller.AddCarActivity" />
+
+        <activity android:name=".controller.ListOfClients" />
+        <activity android:name=".controller.ListOfReserves" />
+        <activity android:name=".controller.ListOfCars"/>
+
+        <activity android:name=".controller.ListOfCarModels"></activity>
+        <activity android:name=".controller.ListOfBranchs"></activity>
+
+
+
+    </application>
+
+</manifest>

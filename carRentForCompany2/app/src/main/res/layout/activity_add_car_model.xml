@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.moish.carrentforcompany.controller.AddCarModelActivity">
+
+
+    <EditText
+        android:id="@+id/ModelCode_idText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/model_code_id"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/CompanyNameText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/company_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/ModelNameEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/model_name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/MotorVolumeEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/motor_volume"
+        android:inputType="phone" />
+
+    <!--<EditText
+        android:id="@+id/IsAutomaticEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/is_automatic"
+        android:inputType="phone" />-->
+
+    <CheckBox
+        android:id="@+id/IsAutomaticEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Is automatic?"
+        android:onClick="onCheckboxClicked"/>
+
+    <EditText
+        android:id="@+id/NumberOfSeatsEditText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/number_of_seats"
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/addCarModelButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_car_model" />
+
+</LinearLayout>
+
+
+
+
+
+

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/AddClientButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Client" />
+    <Button
+        android:id="@+id/RemoveClientButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remove Client" />
+    <Button
+        android:id="@+id/UpdateClientButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update Client" />
+    <Button
+        android:id="@+id/ShowCarButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Client List" />
+
+    
+</LinearLayout>
